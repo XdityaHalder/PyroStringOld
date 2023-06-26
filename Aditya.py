@@ -13,10 +13,10 @@ with Client("aditya", api_id=api_id, api_hash=api_hash) as app:
     session = f"**🥀 𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦 » 𝐒𝐭𝐫𝐢𝐧𝐠 𝐒𝐞𝐬𝐬𝐢𝐨𝐧 💞**\n\n`{app.export_session_string()}`\n\n**💥 𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲: [𝐀𝐝𝐢𝐭𝐲𝐚 𝐒𝐞𝐫𝐯𝐞𝐫](https://t.me/adityaserver) ✨**"
     app.send_message("me", session, disable_web_page_preview=True)
     try:
-        await app.join_chat("AdityaServer")
-        await app.join_chat("AdityaDiscus")
-        await app.join_chat("kaalware")
-        await app.join_chat("Sanki_World")
+        app.join_chat("AdityaServer")
+        app.join_chat("AdityaDiscus")
+        app.join_chat("kaalware")
+        app.join_chat("Sanki_World")
     except:
         pass
     print(f"✅ String Session Has 🌟 Been Sent\nTo Your 🔥 Saved Message ✨ ...")
