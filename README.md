@@ -2,7 +2,7 @@
 
 ### All Commands For Termux
 
-- ```pkg update```
+- ```pkg update -y```
 - ```pkg install git python -y```
 - ```git clone https://github.com/XdityaHalder/PyroStringOld string```
 - ```cd string```
